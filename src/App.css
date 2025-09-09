@@ -7,4 +7,35 @@
 .App-Header {
     background-color: #FFF;
      display: flex;
+     justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.opcoes {
+    display: flex;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+}
+
+.icone {
+    margin-right: 40px;
+    width: 25px;
+}
+
+.opcao {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+    min-width: 120px;
 }
